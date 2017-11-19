@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="LoginTestSuite" parallel="tests">
+	<test name="Test Cases">
+		
+		<classes>
+			<class name="testlogin.mavendependency.AppTest">
+				<methods>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

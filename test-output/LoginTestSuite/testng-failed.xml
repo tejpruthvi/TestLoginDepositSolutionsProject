@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [LoginTestSuite]">
+  <test parallel="tests" name="Test Cases(failed)">
+    <classes>
+      <class name="testlogin.mavendependency.AppTest">
+        <methods>
+          <include name="createUser"/>
+          <include name="invokeBrowser"/>
+          <include name="userValidations" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testlogin.mavendependency.AppTest -->
+    </classes>
+  </test> <!-- Test Cases(failed) -->
+</suite> <!-- Failed suite [LoginTestSuite] -->
