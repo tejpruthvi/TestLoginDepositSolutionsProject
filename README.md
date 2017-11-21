@@ -4,8 +4,6 @@ Prerequisites: Java 9, Eclipse, Selenium, Maven, TestNG
 
 src/test/java/testlogin/mavendependency contains the source files.
 
-pom.xml consists of required jars which will be downloaded automatically.
+run pom.xml file as maven test which downloads the required jars.
 
-Use TestNG to run the configuration file "LoginTestDepositSolutions.xml" which generates the folder "testoutput".
-
-Open with webbrowser to view the results of "testoutput\emailablereports.html"   
+View the report TestLoginDepositSolutionsProject-master\target\surefire-reports\emailable-report.html to find the test results
